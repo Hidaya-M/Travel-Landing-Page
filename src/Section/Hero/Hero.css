@@ -1,0 +1,30 @@
+.hero-section {
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    padding: 0 10px;
+    text-align: center;
+ }
+ video {
+     width: 100%;
+     height: 100%;
+     object-fit: cover;
+     position: fixed;
+     z-index: -1;
+ }
+ h1 ,h3
+  {
+     color: #fff;
+     font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+ }
+ h3 {
+     opacity: 0.6;
+     font-weight: 500;
+ }
+

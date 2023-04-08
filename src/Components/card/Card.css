@@ -1,0 +1,82 @@
+.book {
+    margin-left: 50px;
+    margin-bottom: 30px;
+     position: relative;
+     border-radius: 30px;
+     width:350px;
+     height: 300px;
+     background:   linear-gradient(137.48deg, #FE53BB 45%, #8F51EA 67%);
+      border-radius: 30px;
+     -webkit-box-shadow: 1px 1px 12px #000;
+     box-shadow: 1px 1px 12px #000;
+     -webkit-transform: preserve-3d;
+     -ms-transform: preserve-3d;
+     transform: preserve-3d;
+     -webkit-perspective: 2000px;
+     perspective: 2000px;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: end; 
+      text-align: center;
+     color: #000;
+   }
+   
+   .cover {
+    
+     top: 0;
+     position: absolute;
+     background-color: lightgray;
+     width: 100%;
+     height: 100%;
+     border-radius: 10px;
+     cursor: pointer;
+     -webkit-transition: all 0.5s;
+     transition: all 0.5s;
+     -webkit-transform-origin: 0;
+     -ms-transform-origin: 0;
+     transform-origin: 0;
+     -webkit-box-shadow: 1px 1px 12px #000;
+     box-shadow: 1px 1px 12px #000;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-align: center;
+     -ms-flex-align: center;
+     align-items: center;
+     -webkit-box-pack: center;
+     -ms-flex-pack: center;
+     justify-content: center;
+     border-radius: 20px;
+   }
+   
+   .book:hover .cover {
+     -webkit-transition: all 0.5s;
+     transition: all 0.5s;
+     -webkit-transform: rotatey(-80deg);
+     -ms-transform: rotatey(-80deg);
+     transform: rotatey(-80deg);
+   }
+   
+   .book p {
+     font-size: 19px;
+     font-weight: 500;
+     margin-left: 40px;
+     font-family: 'Poppins', sans-serif;
+
+   }
+   img {
+     width: 100%;
+     height: 100%;
+     border-radius: 20px;
+   }
+   @media only screen and (max-width: 938px) {
+   .book {
+      margin-left: 0 !important;
+    }
+  }
