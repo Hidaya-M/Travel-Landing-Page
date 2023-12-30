@@ -1,4 +1,4 @@
-# Travel Website
+# Travel Landing Page
  a modern, fully responsive Travel Landing Page using React.js.
 
 ## Getting Started
